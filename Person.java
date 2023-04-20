@@ -9,7 +9,14 @@ private String email;
 public Person() {
 
 }
+public Person(String name,String address,String phoneNumber,String email){
 
+this.name = name;
+this.address = address;
+this.phoneNumber = phoneNumber;
+this.email = email;
+
+}
 // These are getter methods to get the values of the instance variables
 public String getName() {
 	return name;
